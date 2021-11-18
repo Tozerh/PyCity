@@ -10,6 +10,7 @@ PyCity Schools reached out for an analysis of their test scores. PyCity provided
 - Software: Python 3.6.1 (with pandas library), Jupyter Notebooks
 
 ## Results
+
 - How is the district summary affected?
 
 - How is the school summary affected?
