@@ -33,10 +33,12 @@ Adjusted District Summary:
      Note: The above percentages use the adjusted student count for THS, excluding the 9th graders's scores and count from the student totals. 
 - How is the school summary affected?
  Original School Summary:
-      ![Original School Summary](https://github.com/Tozerh/PyCity/blob/main/Resources/SchoolSummaryOG.PNG)
       
- Adjusted School Summary: 
-      ![Adjusted School Summary](https://github.com/Tozerh/PyCity/blob/main/Resources/SchoolSummaryAdjusted.PNG)
+   ![Original School Summary](https://github.com/Tozerh/PyCity/blob/main/Resources/SchoolSummaryOG.PNG)
+      
+ Adjusted School Summary:
+ 
+   ![Adjusted School Summary](https://github.com/Tozerh/PyCity/blob/main/Resources/SchoolSummaryAdjusted.PNG)
       
   The school summary table was affected only in Thomas High School's row. The other schools didn't have data anomalies that needed to be removed, so their overall percentages     stayed the same. At THS specifically, we removed the presumably dishonest scores from their 9th grade testing, not counting these scores in our totals at all. The results were: 
       
@@ -65,9 +67,27 @@ Adjusted District Summary:
      - % Passing Reading: 84.39% to 84.32%
      - % Overall Passing: 62.86% to 62.79%
 
-     **Scores by school size:** Changes to scores by school size parallel the changes to scores by school spending, with a slight increase in the Average Reading Score, while all other categories see a slight decrease. 
-
-     **Scores by school type:**
+     **Scores by school size:** Changes to scores by school size parallel the changes to scores by school spending, with a slight increase in the Average Reading Score, while all other categories see a slight decrease: 
+     
+     Original School Size Summary Table: 
+          
+          ![OG School Size](https://github.com/Tozerh/PyCity/blob/main/Resources/SchoolSizeOG.PNG)
+          
+     Adjusted School Size Summary Table: 
+     
+          ![Adjusted School Size](https://github.com/Tozerh/PyCity/blob/main/Resources/SchoolSizeAdjusted.PNG)
+          
+     **Scores by school type:** THS is a charter school, so we would expect to only see changes for this category of school, and indeed that's what the data bears out. The changes to charter school aggregate data are slight and in line with what we see in other summaries for this project (i.e., a slight uptick in average reading score and a slight decrease in all other categories:
+     
+        
+     Original School Type Summary Table: 
+          
+          ![OG School Type](https://github.com/Tozerh/PyCity/blob/main/Resources/TypeSummaryOG.PNG)
+          
+     Adjusted School Type Summary Table: 
+     
+          ![Adjusted School Type](https://github.com/Tozerh/PyCity/blob/main/Resources/TypeSummaryAdjusted.PNG)
+          
 
 ## Suggestions to Modify Code for Other Elections
 
