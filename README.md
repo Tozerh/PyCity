@@ -92,6 +92,15 @@ Adjusted School Type Summary Table:
 ![Adjusted School Type](https://github.com/Tozerh/PyCity/blob/main/Resources/TypeSummaryAdjusted.PNG)
           
 
-## Suggestions to Modify Code for Other Elections
+## Summary of Changes after Reading and Math Scores Were Replaced
 
+*After reading and math scores were replaced, the overall statistics for the school disctrict changed in four ways:* 
+
+1) Since the NaN values are treated like a zero when calculating averages, the % Passing Math and % Passing Reading for the District overall drop from 75.0% to 74.8% and from 85.8% to 85.7%, respectively. 
+
+2) The Average Math Score for the District drops from 79.0% to 78.9%. 
+
+3) The Average Reading Score for the Disrict remains largely unaffected, remaining at 81.9% even after the 9th grade THS scores were replaced. 
+
+4) The % Overall Passing dropped from 65.2% before the score replacements to 64.1%. This significant drop can be attributed to the fact that the doctored scores for the 9th graders at THS included both doctored math and reading scores for each student. Since each 9th grade student at THS had higher scores than they should have in both categories, the % Overall Passing increased significantly.  
 
